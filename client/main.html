@@ -1,0 +1,24 @@
+<head>
+  <title>meteor-geofencing</title>
+</head>
+
+<body>
+  <h1>Geofencing - Demo!</h1>
+  {{> hello}}
+</body>
+
+<template name="hello">
+  <button>Add Geofence</button>
+  <p>You've added the geofence {{counter}} times.</p>
+
+  <h2>Test Case</h2>
+  <ol>
+    <li>In iOS Simulator</li>
+    <li>Debug -> Location -> Freeway Drive</li>
+    <li>Debug -> Open System Log</li>
+    <li>Push App in background (do not close)</li>
+    <li>Now you see the Local Push Messages</li>
+    <li>Back to the App and terminate it</li>
+    <li>Check the System Log</li>
+  </ol>
+</template>
